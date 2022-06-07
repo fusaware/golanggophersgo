@@ -1,0 +1,13 @@
+{{ define "holamas" }}
+    <h1>Hola, {{.FlatSurface}}</h1>
+    <p>Buenos tardes from {{.Corner}}</p>
+{{ end }}
+
+<!DOCTYPE html>
+<html>
+<body>
+
+{{ template "holamas" . }}
+
+</body>
+</html>
